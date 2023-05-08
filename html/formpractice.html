@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>contact Me</h1>
+    <p>I did really like to hear from you!</p>
+    <form>
+        <fieldset >
+            <legend>Personal information</legend>
+            <label>First name:</label>
+            <input type="text" id="fname" value="enter your name"> <br><br>
+            <label>Password:</label>
+            <input type="password" id="password" value="your secret"><br><br>
+            <label>Phone:</label>
+            <input type="tel" id="number" value="555555555"><br><br>
+            <label>Favorite decade:</label>
+            <input type="number" maxlength="4" minlength="4" id="month" value="1980"><br><br>
+            <label>Favorite coffee:</label>
+            <textarea cols="20px" rows="10px">
+                <ul style="list-style-type: none;">
+                    <li>coffees</li>
+                    <ul>
+                        <li>regular coffee</li>
+                        <li>iced coffee</li>
+                    </ul>
+                    <li>expresso drinks</li>
+                    <ul style="list-style-type: none;">
+                        <li>Latte</li>
+                    </ul>
+
+                </ul>
+            </textarea>
+            
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <form>
+        <fieldset>
+            <legend>what is your favorite food?</legend>
+            <input type="radio" id="tacos" value="tacos">
+            <label>Tacos</label><br><br>
+            <input type="radio" id="pizza" value="pizza">
+            <label>pizza</label><br><br>
+            <input type="radio" id="other" value="other">
+            <label>other</label><br><br>
+        </fieldset>
+    
+    <br><br>
+    
+        <fieldset>
+            <legend>do you have pets?</legend>
+            <p>
+                <label>
+                    <input type="checkbox" name="pets" value="dog"/> dog
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="pets" value="cat"/> cat
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="pets" value="fish"/> fish
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="pets" value="other"/> other
+                </label>
+            </p>
+
+        </fieldset>
+    
+    <br><br>
+    
+        <fieldset>
+            <legend>send me a note</legend>
+            <label>your message</label>
+            <textarea name="comments" maxlength="700" cols="20" rows="10"></textarea>
+        </fieldset>
+    <br>
+    <br>
+    <input type="submit" name="submit" value="submit">
+    <input type="button" name="post" value="post">
+    <input type="reset" name="reset" value="reset">
+
+    </form>
+
+</body>
+</html>
