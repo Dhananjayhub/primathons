@@ -21,8 +21,10 @@
             <label>Favorite decade:</label>
             <input type="number" maxlength="4" minlength="4" id="month" value="1980"><br><br>
             <label>Favorite coffee:</label>
-            <textarea cols="20px" rows="10px">
-                <ul style="list-style-type: none;">
+            
+                <!-- 
+
+                 <ul style="list-style-type: none;"> 
                     <li>coffees</li>
                     <ul>
                         <li>regular coffee</li>
@@ -31,10 +33,17 @@
                     <li>expresso drinks</li>
                     <ul style="list-style-type: none;">
                         <li>Latte</li>
-                    </ul>
-
-                </ul>
-            </textarea>
+                    </ul>  -->
+                    <select name="coffee" id="coffee">
+                        <option value="">--Please choose an option--</option>
+                        <option value="coffee">coffee</option>
+                        <option value="regular">regular Coffee</option>
+                        <option value="iced coffee">iced coffee</option>
+                        <option value="expresso drinks">expresso drinks</option>
+                    
+                        <option value="latti">latti</option>
+                    </select>
+            
             
         </fieldset>
     </form>
