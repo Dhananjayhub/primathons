@@ -1,0 +1,26 @@
+.test
+{
+    border-bottom: 10px solid red;
+    
+    
+}
+.circle{
+    border-top-left-radius: 50%
+    ;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: blue
+    ;
+    border-style: dotted;
+}
+
+
+.border{
+    border-bottom: 5px solid red;
+    border-top: 5px solid red;
+    border-right: 5px solid red;
+    color: blue;
+}
