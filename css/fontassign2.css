@@ -1,0 +1,20 @@
+body{
+    background-color: lightskyblue;
+}
+
+.a{
+    font-size: 50px;
+    font-family:  sans-serif;
+    
+}
+
+.b{
+    font-size: 30px;
+    font-family:  serif;
+}
+.c{
+    font-size: 20px;
+    font-family: monospace
+    ;
+    word-spacing: 4px;
+}
