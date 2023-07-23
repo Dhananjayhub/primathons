@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.header{
+    display: flex;
+    gap: 33px;
+    justify-content: end;
+    padding: 27px 60px;
+    margin: 0 auto 0;
+    max-width: 1440px;
+
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 148px;
+    margin: 140px auto 0;
+    max-width: 1440px;
+}
+.herosectionleft{
+    max-width: 506px;
+}
+.herotitle{
+    font-family: Heebo;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 40px;
+    
+
+
+}
+.herodescription{
+    font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+
+}
+.herobutton{
+    font-family: Heebo;
+font-size: 20px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+border: none;
+background: #FF6464;
+
+}
+.recentcolor{
+    background: #EDF7FA;
+    margin-top: 100px;
+
+}
+.recentpost{
+    max-width: 1440px;
+    margin: 0 auto 0;
+    padding: 0 148px 32px;
+
+}
+.recentpostheading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardcontainer{
+    display: flex;
+    margin-top: 30px;
+    background: #FFFFFF;
+    gap: 20px;
+    padding: 24px;
+
+}
+.cardtitle{
+    font-family: Heebo;
+font-size: 26px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 17px;
+
+
+}
+.cardtime{
+    font-family: Heebo;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 11px;
+
+}
+carddescription{
+    font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.feature{
+    max-width: 1440px;
+    margin: 140px auto 0;
+    padding: 0 148px 0;
+    
+}
+.list{
+    list-style-type: none;
+
+}
+.listitem{
+    display: flex;
+    gap: 18px;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 32px 0 15px;
+}
+.listheading{
+    margin-bottom: 16px;
+
+}
+.listdetail{
+    margin-bottom: 17px;
+}
+.listtag{
+    padding: 0 10px;
+    background: rgba(20, 40, 80, 1);
+    margin-right: 36px;
+    border-radius: 16px;
+    
+
+}
+.listdescription{
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 134px 0 54px;
+    flex-direction: column;
+
+}
+.sociallinks{
+    display: flex;
+    gap: 35px;
+
+}

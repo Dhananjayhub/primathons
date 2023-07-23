@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    padding: 77px 0 0;
+    gap: 100px;
+    background-color: #ffc3c3;
+    width: max-content;
+    height: fit-content;
+}
+
+.col1 {
+    margin: 0 0 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    background: #FFF7F4;
+    
+    border-radius: 50%;
+    padding: 40px 66px
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.bigtext {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 120%;
+    color: #373737;
+}
+
+.text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 20%;
+    color: #373737;
+    margin: 0 0 100px 0;
+}
+
+.col3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.page-1 {
+    margin-left: 10px;
+}
+
+@media (max-width:1024px) {
+    .col1 {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        align-items: baseline;
+        margin: 0 130px;
+
+    }
+
+    .logo {
+        height: 170px;
+        width: 190px;
+    }
+
+    .detail {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .bigtext {
+        font-weight: 300;
+        font-size: 55px;
+        line-height: 20%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .col2 {
+        width: 100%;
+        aspect-ratio: 0.73/1;
+    }
+
+    .col2>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .page-1 {
+        width: 100%;
+        aspect-ratio: 1.82/1;
+    }
+
+    .page-1>img{
+        width: 97%;
+        height: 100%;
+    }
+
+    .page-2 {
+        width: 100%;
+        aspect-ratio: 1.65/1;
+    }
+
+    .page-2>img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .page-3 {
+        width: 100%;
+        aspect-ratio: 1.70/1;
+    }
+
+    .page-3>img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
